@@ -1,0 +1,26 @@
+.navbar{
+	background-color:black;
+	ul li a{
+			color:white;
+	}
+	
+}
+.redondas{
+	background-color:$background-coloruno;
+	img{
+		width: $imgs;
+		border: $borderedon solid $background-naranjito;
+		margin-top:-30%;
+	}
+	button{
+		background-color:$background-naranjito;
+		margin-bottom:40px;
+	}
+	h4{
+		@include margen();
+	}
+	p{
+		@include margen();
+	}
+
+}
